@@ -1,0 +1,1 @@
+This script generates a self-signed SSL certificate and key using OpenSSL, and then starts an SSL server using openssl s_server with the -tls1_3 flag to specify TLS 1.3. This should allow the exploit to work on websites that support TLS 1.3, which is a more secure protocol.
